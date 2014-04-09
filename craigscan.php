@@ -121,7 +121,7 @@
 			$mail->Host = "smtp.gmail.com";
 			$mail->Port = 587;
 			$mail->Username = "craigscan1@gmail.com"; // SMTP username
-			$mail->Password = "hackkid1"; // SMTP password
+			$mail->Password = "boguspw1"; // SMTP password
 			$webmaster_email = "craigscan1@gmail.com"; //Reply to this email ID
 			$email= $recipient; // Recipients email ID
 			$name="you"; // Recipient’s name
