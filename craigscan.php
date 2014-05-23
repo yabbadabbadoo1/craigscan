@@ -2,7 +2,7 @@
 	require "simple_html_dom.php";
 	require("phpmailer/class.phpmailer.php");
 	
-	$db_connection = mysql_connect("localhost", "cs143", "");
+	$db_connection = mysql_connect("localhost", "asdf", "asdf");
 	mysql_select_db("craig", $db_connection);
 	$query = "SELECT * FROM users";
 	$rs = mysql_query($query, $db_connection);
