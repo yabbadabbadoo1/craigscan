@@ -23,7 +23,7 @@
 		return;
 	}
 	
-	$db_connection = mysql_connect("localhost", "cs143", "");
+	$db_connection = mysql_connect("localhost", "asdf", "asdf");
 	mysql_select_db("craig", $db_connection);
 	$query = "INSERT INTO users (phone, location, search, category, nearby, price, sent, carrier) VALUES(";
 	$query = $query . $phone . ", ";
